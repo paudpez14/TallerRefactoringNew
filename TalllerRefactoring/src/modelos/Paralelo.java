@@ -33,12 +33,5 @@ public class Paralelo {
     }
     public Estudiante getAyudante(){
         return ayudante;
-    }
-    
-    //Imprime el listado de estudiantes registrados
-    public void mostrarListado(){
-        //No es necesario implementar
-    }
-    
-    
+    }  
 }
