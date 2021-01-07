@@ -6,13 +6,12 @@ public class Paralelo {
     public int numero;
     public Materia materia;
     public Profesor profesor;
-    public ArrayList<Estudiante> estudiantes;
-    public Ayudante ayudante;
+    public ArrayList<Estudiante> estudiantes; 
+    public Estudiante ayudante;
 
     public int getNumero() {
         return numero;
     }
-
     public void setNumero(int numero) {
         this.numero = numero;
     }
@@ -31,6 +30,9 @@ public class Paralelo {
 
     public void setProfesor(Profesor profesor) {
         this.profesor = profesor;
+    }
+    public Estudiante getAyudante(){
+        return ayudante;
     }
     
     //Imprime el listado de estudiantes registrados
